@@ -1,11 +1,7 @@
 
-# _                                        ___ 
-# |_) ._ _  o  _   _ _|_ o   \  / /\  | | |  |  
-# |   | (_) | (/_ (_  |_ o    \/ /--\ |_| |_ |  
-#          _|       
+# Project: VAULT
 
-
-# What is this? 
+## What is this? 
 
 An HCI Project in combination with the subject "Creative Making and Digital Fabrication"
 The goal is to create an interactive Prototype which responds to motion in form of motion or light.
