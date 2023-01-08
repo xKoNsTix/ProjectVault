@@ -1,7 +1,7 @@
 
-# ░█▀▀█ █▀▀█ █▀▀█ ──▀ █▀▀ █▀▀ ▀▀█▀▀ 　 ░█──░█ ─█▀▀█ ░█─░█ ░█─── ▀▀█▀▀ 
-# ░█▄▄█ █▄▄▀ █──█ ──█ █▀▀ █── ──█── 　 ─░█░█─ ░█▄▄█ ░█─░█ ░█─── ─░█── 
-# ░█─── ▀─▀▀ ▀▀▀▀ █▄█ ▀▀▀ ▀▀▀ ──▀── 　 ──▀▄▀─ ░█─░█ ─▀▄▄▀ ░█▄▄█ ─░█──
+# ╔═╗┬─┐┌─┐ ┬┌─┐┌─┐┌┬┐  ╦  ╦╔═╗╦ ╦╦ ╔╦╗
+# ╠═╝├┬┘│ │ │├┤ │   │   ╚╗╔╝╠═╣║ ║║  ║ 
+# ╩  ┴└─└─┘└┘└─┘└─┘ ┴    ╚╝ ╩ ╩╚═╝╩═╝╩ 
 
 ## What is this? 
 
@@ -15,7 +15,7 @@ The motion sensor is used to visualize the status of the vault. The vault will r
 green lights if something is in it, and with red if not. 
 
 The Proximity sensor acts as the opener, when an object comes near vault, vault will open.
-The code for this is found in this repo. Since i have programmed timings and delays, i used a second arduino.
+The code for this is found in this repo. Since i have programmed timings and delays, i used a second ardui
 
 At the time of writing this, vault is currently printed, or at least, the housing of it. 
 
