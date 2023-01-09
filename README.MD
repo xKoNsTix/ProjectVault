@@ -17,3 +17,8 @@ The code for this is found in this repo. Since i have programmed timings and del
 
 At the time of writing this, vault is currently printed, or at least, the housing of it. 
 
+Video Proof of first prototype: 
+
+https://youtube.com/shorts/u3pT0-ES__E?feature=share
+
+Stay tuned!

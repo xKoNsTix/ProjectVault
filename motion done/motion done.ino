@@ -39,15 +39,15 @@ void loop() {
   } else if (distance >= MIN_DISTANCE && distance <= MAX_DISTANCE) {
     // if the distance is within the specified range (0-30 cm),
     // map the distance to a servo position (0-180 degrees) and write it to the servos
-    int servo_pos = map(distance, MIN_DISTANCE, MAX_DISTANCE, 180, 0);
+    int servo_pos = map(distance, MIN_DISTANCE, MAX_DISTANCE, 90,0);
     servo1.write(servo_pos);
     servo2.write(servo_pos);
     delay(400);
     delay(15);  // add a delay to make the movement smoother
   } else {
     // if the distance is greater than 30 cm, move the servos to the 100% position
-    servo1.write(180);
-    servo2.write(180);
+    servo1.write(0);
+    servo2.write(0);
     delay(200);
   }
 }

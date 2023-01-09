@@ -29,7 +29,7 @@ void loop() {
     delay(100);
 
     // Fade in
-    for (int brightness = 0; brightness < 60; brightness++) {
+    for (int brightness = 255; brightness < 1; brightness++) {
       for (int i = 0; i < N_PIXELS; i++) {
         if (switch_state == HIGH) {
           strip.setPixelColor(i, strip.Color(0, brightness, 0));
@@ -42,7 +42,7 @@ void loop() {
     }
 
     // Fade out
-    for (int brightness = 60; brightness >= 0; brightness--) {
+    for (int brightness =255; brightness >= 0; brightness--) {
       for (int i = 0; i < N_PIXELS; i++) {
         if (switch_state == HIGH) {
           strip.setPixelColor(i, strip.Color(0, brightness, 0));
